@@ -1,0 +1,42 @@
+.img-height-40{
+    height: 40px !important;
+}
+
+.propic{
+    width: 100%;
+}
+.text-decoration{
+    text-decoration: none !important;
+}
+.margin-top-20{
+    margin-top: 20px !important;
+}
+.help-block,
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+
+.tile {
+	border-radius: 4px;
+	border: 1px solid #2ecc71;
+	padding: 0;
+}
+.tile-title {
+	background-color: #2ecc71;
+	padding: 15px;
+	color: #fff;
+}
+.tile-body {
+	padding: 0 15px;
+}
+
+.tile-title-w-btn {
+	background-color: #2ecc71;
+	padding: 15px;
+	color: #fff;
+}
+.tile .tile-footer {
+	padding: 15px;
+}

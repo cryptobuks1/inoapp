@@ -1,0 +1,29 @@
+@page
+{
+    size: auto;   /* auto is the initial value */
+
+    margin: 0 70px;
+}
+
+@media print {
+
+    .navbar .navbar-area .navbar-expand-lg .navbar-light
+    {
+        display: none;
+    }
+
+    .print-button,
+    .breadcrumb-area.extra{
+        display: none;
+    }
+
+    .btn-wrapper,
+    .footer-area,
+    .breadcrumb-inner{
+        display: none;
+        margin-top: 0;
+    }
+    .invoice-info{
+        text-align: center;
+    }
+}
