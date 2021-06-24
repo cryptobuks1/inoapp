@@ -1200,7 +1200,7 @@ ul {
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
     transition: 0.5s ease-in;
-    background-color: transparent;
+    background-color: black;
     padding: 0;
     position: absolute;
     left: 0;
@@ -3279,4 +3279,9 @@ button.btn-sm.cmn-btn  {
     .navbar-nav {
         margin-left: auto;
     }
+}
+
+/* mon propre css */
+nav.navbar.navbar-area.navbar-expand-lg.navbar-light {
+    background-color: black !important;
 }
